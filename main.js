@@ -20,4 +20,5 @@ imgs.forEach(img => {
 
 cardBoard.innerHTML = cardHTML + cardHTML;
 
+/** Fim da Renderização HTML */
 
