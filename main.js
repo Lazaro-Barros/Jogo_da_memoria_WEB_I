@@ -1,4 +1,3 @@
-  
 const cardBoard = document.querySelector("#cardboard");
 const imgs = [
   "0.jpg",
