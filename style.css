@@ -25,6 +25,17 @@ body{
     height: 33%;
     margin: 5px;
     position: relative;
+    transform-style: preserve-3d;
+    transition: 0.2s;
+}
+
+.memory-card:active{
+    transform: scale(0.95);
+}
+
+.memory-card.flip{
+    transform: rotateY(180deg);
+    
 }
 
 
@@ -34,5 +45,11 @@ body{
     height: 100%;
     background: white;
     position: absolute;
+    border: 2px solid black;
+    border-radius: 10px;
     
+}
+
+.front-face{
+    transform: rotateY(180deg);
 }
