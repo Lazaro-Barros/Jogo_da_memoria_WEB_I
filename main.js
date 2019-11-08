@@ -19,7 +19,7 @@ imgs.forEach(img => {
 
 cardBoard.innerHTML = cardHTML + cardHTML;
 
-/** Fim da Renderização HTML */
+/** Fim Renderização  */
 
 const cards = document.querySelectorAll(".memory-card");
 let firstCard, secondCard;
